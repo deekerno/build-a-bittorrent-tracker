@@ -6,4 +6,6 @@ edition = "2021"
 
 [dependencies]
 axum = "0.6"
+serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1.0", features = ["full"] }
+urlencoding = "2.1"
