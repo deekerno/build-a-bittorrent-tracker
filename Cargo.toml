@@ -4,6 +4,14 @@ version = "0.1.0"
 authors = ["Alexander <alex@deekerno.com>"]
 edition = "2021"
 
+[[bin]]
+name = "bbtt-tcp"
+path = "src/bin/tcp.rs"
+
+[[bin]]
+name = "bbtt-udp"
+path = "src/bin/udp.rs"
+
 [dependencies]
 axum = "0.6"
 bendy = "0.3.3"
